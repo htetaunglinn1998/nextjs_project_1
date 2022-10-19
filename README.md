@@ -1,2 +1,2 @@
 # nextjs_project_1
-- To develop my skill to Next level 😁😉
+- Welcome to my Next Js project 😁😉
