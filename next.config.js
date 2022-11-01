@@ -4,4 +4,17 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+
+// next.config.js
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.website-files.com',
+      },
+    ],
+  },
+}
+
+
