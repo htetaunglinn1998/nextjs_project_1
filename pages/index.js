@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='bg-[#171717] h-screen'>
+    <div className='bg-[#171717] '>
       <nav className='text-white text-md flex justify-between px-5 py-8 font-medium'>
         <h1 className='text-xl'>
           Logo
@@ -23,7 +23,7 @@ const Home = () => {
             CREATIVE <br />
             DEVELOPER
           </h1>
-
+          <Image width={500} height={500} src="https://assets.website-files.com/6310ffd0c310a8603c82807d/63110b34132eca9f79d3863b_hm-hero.webp"></Image>
         </div>
       </main>
     </div>
